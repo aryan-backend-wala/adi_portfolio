@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Preahvihear&display=swap');
+
+.box {
+  background-color: #07030c;
+  color: #fff;
+  height: 100vh;
+  font-family: "Preahvihear", system-ui;;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+.hello {
+  padding-top: 133px;
+  font-size: 19px;
+  text-align: center;
+}
+
+.purpleText {
+  color: #7127BA;
+}
+
+.meBox {
+  display: flex;
+  flex-direction: row;
+  gap: 53px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.imageBox {
+  width: 258px;
+  height: 259px;
+  text-align: center;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.meImage {
+  width: 165px;
+  height: 223px;
+}
+
+.meContent {
+  display: flex;
+  flex-direction: column;
+  height: 126px;
+  text-align: start;
+  justify-content: center;
+  line-height: 31px;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.judge {
+  font-size: 50px;
+  max-width: 386px;
+  line-height: 126.7%;
+}
+
+.gra {
+  position: absolute;
+  transform: translateX(-60px);
+}
+
+.heading {
+  padding-top: 96px;
+  font-size: 50px;
+  line-height: 31px;
+  letter-spacing: 2%;
+  max-width: 573px;
+}

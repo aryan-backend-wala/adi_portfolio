@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* Base styles for desktop */
+.navbar {
+  background-color: #1A0B2E;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  height: 113px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  padding: 0 20px;
+}
+
+.navbarBox {
+  display: flex;
+  justify-content: center;
+  flex: 3;
+}
+
+.navbarLogo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex: 2;
+}
+
+.logo {
+  width: 35px;
+  height: 39px;
+}
+
+.navbarNav {
+  display: flex;
+  gap: 130px;
+  padding: 0;
+  list-style: none;
+  text-transform: capitalize;
+}
+
+.navbarLinks {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Tablet: Reduce the gap between links and adjust font size */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+  }
+
+  .navbarBox {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .navbarLogo {
+    justify-content: center;
+    flex: 1;
+    margin-bottom: 10px;
+  }
+
+  .navbarNav {
+    gap: 50px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .navbarLinks {
+    font-size: 18px;
+  }
+}
+
+/* Mobile: Stack the links vertically, adjust padding and font size */
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .navbarBox {
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+
+  .navbarNav {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .navbarLinks {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+
+  .logo {
+    width: 30px;
+    height: 34px;
+  }
+}
