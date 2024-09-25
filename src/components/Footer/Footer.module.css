@@ -1,0 +1,11 @@
+.box {
+  background-color: #07030c;
+  color: #fff;
+  height: 80vh;
+  font-family: "Preahvihear", system-ui;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 260px;
+  padding-top: 200px;
+}

@@ -1,0 +1,47 @@
+.box {
+  background-color: #07030c;
+  color: #fff;
+  height: 100vh;
+  font-family: "Poppins", system-ui;
+  display: flex;
+  flex-direction: column;
+  padding-left: 260px;
+  position: relative;
+  padding-top: 150px;
+}
+
+.project {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 622px;
+  height: 333px;
+  background-color: transparent;
+  justify-content: flex-start;
+}
+
+.right {
+
+}
+
+.gra {
+  position: absolute;
+  width: 572px;
+  height: 641px;
+  background: radial-gradient(ellipse at center, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+  border-radius: 50%;
+  filter: blur(50px);
+  align-self: center;
+}
+
+.glow {
+  width: 669px;
+  height: 165px;
+  background-image: url('/icons/rect.png');
+  transform: rotate(180deg);
+}
