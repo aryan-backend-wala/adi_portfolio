@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Preahvihear&display=swap');
+
+.box {
+  position: relative;
+  background-color: #07030c;
+  color: #fff;
+  height: 220vh;
+  font-family: "Preahvihear", system-ui;
+  display: flex;
+  flex-direction: column;
+  padding: 170px 260px 0;
+  z-index: 1;
+}
+
+.heading {
+  font-size: 40px;
+  line-height: 31px;
+  letter-spacing: 2%;
+  z-index: 3;
+}
+
+.gridBox {
+  margin-top: 44px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 20px;
+}
+
+.card {
+  position: relative; 
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  justify-content: flex-start;
+  align-items: center;
+  width: 570px;
+  height: 192px;
+  z-index: 5; 
+  border-radius: 10px;
+  gap: 25px;
+  padding-left: 50px;
+  border-top: 2px solid #693B93;
+  background: linear-gradient(0.25turn, #14042A, #250F42, #32115F);
+}
+
+.cardImage {
+  z-index: inherit;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  z-index: inherit;
+  gap: 5px;
+}
+
+.gra {
+  position: absolute;
+  width: 625px;
+  height: 700px;
+  background: radial-gradient(ellipse at center, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+  border-radius: 50%;
+  filter: blur(50px);
+  align-self: center;
+  transform: translateY(-80px);
+}
+
+button {
+  text-transform: uppercase;
+  width: 119px;
+  height: 33px;
+  padding: 10px 23px 10px 19px;
+  font-size: 10px;
+  border-radius: 10px;
+  background-color: #2C1250;
+  color: #fff;
+  border: 1px solid #693B93;
+}

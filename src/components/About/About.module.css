@@ -4,16 +4,16 @@
   background-color: #07030c;
   color: #fff;
   height: 112vh;
-  font-family: "Preahvihear", system-ui;;
+  font-family: "Preahvihear", system-ui;
   display: flex;
   flex-direction: column;
-  place-items: center;
+  padding-left: 260px;
 }
 
 .hello {
   padding-top: 133px;
   font-size: 19px;
-  text-align: center;
+  padding-left: 260px;
 }
 
 .purpleText {
